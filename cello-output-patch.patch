@@ -1,0 +1,10 @@
+--- cello.c.orig	2022-01-07 12:33:00.246603147 +0530
++++ cello.c	2022-01-10 06:56:06.732776923 +0530
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main(void) {
+-	printf("Hello World\n");
++	printf("Hello World from the patch\n");
+ 	return 0;
+ }

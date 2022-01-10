@@ -1,0 +1,14 @@
+Referencees:
+
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/rpm_packaging_guide/red_hat_enterprise_linux-7-rpm_packaging_guide-en-us.pdf
+    
+https://docs.fedoraproject.org/en-US/packaging-guidelines/
+
+https://www.youtube.com/watch?v=woFtdIS6x0Q&t=1643s
+
+
+cello:- 
+
+The patch file is not distributed in the archive with the program. The RPM Packager
+applies the patch when the RPM is built. The patch will be placed into the 
+~/rpmbuild/SOURCES/ directory alongside the  .tar.gz archive
